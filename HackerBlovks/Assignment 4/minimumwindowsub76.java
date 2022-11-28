@@ -4,7 +4,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		String main = sc.next();
 		String dub = sc.next();
-		//System.out.println(main);
+		System.out.println(main);
 		int[] mfre = new int[256];
 		int[] dfre = new int[256];
 		for(int i = 0;i<dub.length();i++){
